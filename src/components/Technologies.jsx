@@ -1,4 +1,5 @@
 import { FaJava } from "react-icons/fa";
+import { FaPython } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import { TbBrandCoinbase } from "react-icons/tb";
@@ -12,7 +13,7 @@ const Technologies = () => {
                     <TbBrandCoinbase className="text-6xl text-blue-300 fill-white"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <img src="src/assets/python-svgrepo-com.svg" className="w-16 h-16" alt="" />
+                    <FaPython className="text-6xl"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiMysql className="text-6xl text-yellow-300"/>
